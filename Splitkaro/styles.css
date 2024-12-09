@@ -1,0 +1,261 @@
+h1 {
+	color: #3498db;
+	font-size: 20px;
+}
+h2 {
+	color: #3498db;
+	font-size: 20px;
+}
+#claim {
+	text-align: center;
+	min-width: 300px;
+	color: #3498db;
+	font-size: 16px;
+}
+#members-card {
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+}
+#numbers-input {
+	margin: auto;
+	margin-top: 20px;
+}
+#gobox {
+	padding-top: 20px;
+	width: 298px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: auto;
+	text-align: center;
+	background-color: #ecf0f1;
+	padding: 9px;
+	border: 1px #bdc3c7 solid;
+/*	-webkit-box-shadow: 1px 1px 4px -1px rgba(184,184,184,1);
+-moz-box-shadow: 1px 1px 4px -1px rgba(184,184,184,1);
+box-shadow: 1px 1px 4px -1px rgba(184,184,184,1);*/
+}
+#gobox:hover {
+	border: 1px #3498db solid;
+}
+#go {
+	width: 100%;
+	font-size: 24px;
+	padding: 0;
+	margin-bottom: 10px;
+	
+}
+#down {
+	width: 75px;
+	padding: 0;
+	float: left;
+	font-size: 36px;
+	text-align: center;
+	vertical-align: middle;
+}
+#down .btn-info {
+	width: 50px;
+	padding: 0;
+	font-size: 36px;
+	height: 53px;
+	text-align: center;
+}
+#up .btn-info {
+	width: 50px;
+	padding: 0;
+	height: 53px;
+	font-size: 36px;
+	text-align: center;
+}
+
+#count {
+	width: 90px;
+	float: left;
+	text-align: center;	
+	font-size: 30px;
+	padding: 0;
+}
+#countw {
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 20px;
+	float: left;
+	width: 280px;
+	padding: 0;
+	line-height: 1;
+	
+}
+#countw2 {
+	width: 130px;
+	height: 50px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+	
+	
+}
+#up {
+	width: 75px;
+	float: left;
+	font-size: 36px;
+	text-align: center;
+	padding: 0;
+	vertical-align: middle;
+}
+ 
+ 
+#threer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	min-width: 300px;
+	color: #3498db;
+	font-size: 30px;
+}
+.col {
+	margin-left: auto;
+	width: 30%;
+	margin-right: auto;
+	text-align: center;
+	min-width: 200px;
+	display: inline-block;
+	color: #bdc3c7;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 100%;
+	vertical-align: top;
+	margin-top: 20px;
+}
+.colimage {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	min-width: 80px;
+	color: #bdc3c7;
+	font-size: 30px;
+	
+}
+.coltext {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	min-width: 80px;
+	color: #7f8c8d;
+	font-size: 18px;
+	padding-top: 20px;
+	line-height: 1;
+}
+#how {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	min-width: 300px;
+	color: #3498db;
+	font-size: 30px;
+	background-image: ();
+	
+	
+}
+#expl  {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+	text-align: center;
+	min-width: 300px;
+	color: #3498db;
+	font-size: 30px;
+	background-color: #fff;
+	
+}
+#expllong {
+	margin-left: auto;
+	width: 70%;
+	margin-right: auto;
+	text-align: left;
+	min-width: 300px;
+	display: inline-block;
+	color: #7f8c8d;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 100%;
+	vertical-align: top;
+	margin-top: 20px;
+	
+}
+ 
+#howpic {
+	margin-left: auto;
+	width: 40%;
+	height: 200px;
+	margin-right: auto;
+	text-align: center;
+	min-width: 300px;
+	display: inline-block;
+	color: #bdc3c7;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+	vertical-align: top;
+	background-image: url(https://billzer.com/get.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#howtext {
+	margin-left: auto;
+	width: 100%;
+	margin-right: auto;
+	text-align: left;
+	min-width: 200px;
+	display: inline-block;
+	color: #7f8c8d;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+	margin-top: 20px;
+	
+}
+
+
+ 
+#logobig img {
+	max-width: 100%;
+}
+#bottom {
+	position: relative;
+	bottom: 0;
+}
+.hint {
+	font-size: 11px;
+	color: #bdc3c7;
+	line-height: 11px;
+}
+
+#at15s.atm {
+    left:auto !important;
+    right:0 !important;
+}
+
+#howtext {
+	width: 40%;
+}
+.coltext {
+	font-size: 30px;
+}
+
+.person-form {
+    margin: 40px;
+    margin-left: 100px;
+}
+
+.forms-div {
+    display: flex;
+	flex-wrap: wrap;
+}

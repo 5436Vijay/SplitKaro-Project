@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Splitkaro - Split bills for shared group expenses.</title>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="./script.js" type="text/javascript" defer></script>
+
+
+<!-- Loading Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="shortcut icon" href="./images/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+<div id="wrap">
+<div class="container" id="container">
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/split-karo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Splitkaro
+          </a>
+        </div>
+    </nav>
+<br /><br />
+<div id="claim"><h1>Split bills for shared group expenses. <br />We tell you who owes whom and how to settle debts in groups.</h1></div>
+<div id="members-card" class="card text-center">
+    <div class="card-header">
+        How many people are in your group?
+    </div>
+    <div id="numbers-input" class="card-body">
+        <div id="countw" class="card-title">
+            <div id="down">
+            <input value="-" type="button" onclick="change('d')" class="btn btn-hg btn-info"/>
+            </div>
+            <div id="countw2">
+                <div class="form-group">
+                    <div class="input-group">
+                    <span class="input-group-addon"><span class="input-icon fui-user"></span></span> <input type="number" min="2" max="40" step="1" name="p" value="2" id="count" class="form-control input-hg">
+            </div></div></div>
+            <div id="up">
+            <input value="+" type="button" onclick="change('u')" class="btn btn-hg btn-info"/>
+            </div>
+        <span class="hint">People can be excluded from single expenses later</span>
+        </div>
+        <div>
+        Give it a name!			
+        <br />
+        <input maxlength="40" type="text" id="text" name="name" placeholder="e.g. Roadtrip" class="form-control"/>
+        <br />
+        </div>
+        <button onclick="splitPage()" type="button" id="go" class="btn btn-sm btn-success" id="liveAlertBtn">Split</button>
+        <div id="liveAlertPlaceholder"></div>
+    </div>
+  </div>
+<hr />
+<div id="how"><h2>What you get?</h2>
+<div id="howtext"><p>Very often on holiday, at partys, for presents or in free-time everyone pays something for a group of people.
+Calculating the payments afterwards to even out the group can be a daunting and complicated task
+(even with a calculator) - especially when
+some expenses are not shared with all group members.
+<br /><br />
+
+Splitkaro helps you with that: After you entered everyone's name and the spendings she or he had for the group, the splitkaro calculator tells you who owes whom how much and how to settle debts in the group.
+<br /><br />
+It is also possible for expenses not be shared with the whole group and only among specific people.</p>
+</div>
+</div>
+<hr />
+<div id="threer">
+	<h2>Good to know...</h2>
+	<div class="col">
+		<div class="colimage"><img src="https://billzer.com/images/icons/svg/gift-box.svg" width="100px" height="100px" alt="a gift box"/></div>
+		<div class="coltext">It's free. <br /><br />It's easy.</div>
+	</div>
+	<div class="col">
+		<div class="colimage"><img src="https://billzer.com/images/icons/svg/clipboard.svg" width="100px" height="100px" alt="a clipboard" /></div>
+		<div class="coltext">No Sign-up. <br /><br /> No download.</div>
+	</div>
+	<div class="col">
+		<div class="colimage"><img src="https://billzer.com/images/icons/svg/pencils.svg" width="100px" height="100px" alt="pencils" /></div>
+		<div class="coltext">Share the result. <br /><br /> Edit later.</div>
+	</div>
+</div>
+<hr />
+<div id="expl"><h2>Why this site?<br /></h2>
+<div id="expllong"><p>Calculating the right amounts of money and the transactions (who pays to whom how much) to clear a group's shared costs
+and to settle debts for payback can be tedious task - often only solved with the help of spreadsheets.
+It even becomes more complicated when one or more community spendings are not shared by the whole group (e.g. one friend
+did not want to join the group for the museum trip paid by another friend for everyone).
+<br / ><br/>
+We therefore established billzer.com to provide people with an easy, free, fast and
+realiable way to split up their group expenses after holidays, partys, shared presents, festivals, vactions, trips, weddings, roadtrips
+or in clubs and shared apartments and so much more.
+<br /><br />
+Everything happens in the browser without the need for signup or the installation of an App on mobile phones.
+It is our mission to save groups in which everyone paid some bills from arguments and wasting time after the fun is over.</p>
+</div><br />
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
